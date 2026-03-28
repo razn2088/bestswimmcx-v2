@@ -4215,7 +4215,7 @@ ul.inbx-midlist li {
 .btn1{
     width: 260px;
     height: 74px;
-    background-color: #0693e3;
+    background-color: rgb(110, 151, 155);
     border-radius: 10px;
     line-height: 70px;
     font-size: 28px;
@@ -4361,7 +4361,7 @@ footer {
     background-color: #fff;
 }
 a.btn1:hover{
-      background: #0570b8;
+      background: #00c7ff;
 }
 .ftrtxt{
       color: #ffffff;
@@ -4582,7 +4582,7 @@ footer {
 
 
 a.btn1:hover {
-    background: #0570b8;
+    background: #1493b8;
 }
 
 
@@ -4676,7 +4676,7 @@ a.btn1:hover {
       margin: 40px 0 0 0;
 }
 .ourTop h2{
-background-color: #0693e3;
+background-color: #6e979b;
     color: #ffffff;
 }
 .ourTop p {
@@ -4850,7 +4850,7 @@ bottom: 20px;
 }
 .s2bx1-inbx1.box-5{ margin-bottom: 0; }
  .s-productsUp .s2sub-hding{
-    background-color: #0693e3;
+    background-color: #6e979b;
     color: #ffffff;
  }
  .ftrtxt{
