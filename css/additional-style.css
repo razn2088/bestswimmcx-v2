@@ -52,7 +52,7 @@
     font: 23px "ProximaNova SemiBold", sans-serif;
     letter-spacing: 1px;
     color: #fff;
-    background-color: #5d5d5d;
+    background-color: #32373c;
 }
 .s-productsUp .product-1 .left-col{
     width: 35%;
@@ -139,7 +139,7 @@
     width: auto;
 }
 .intRate{
-    color: #559bd6;
+    color: #0693e3;
     right: 0;
     margin-bottom: 10px;
 }
@@ -149,7 +149,7 @@
 .box-4 .inbx-midRight,
 .box-5 .inbx-midRight{ right: 0; }
 
-.textRate { color: #559bd6; }
+.textRate { color: #0693e3; }
 .s2bx1-inbx1 .btn1{
     top: 0;
     right: 0;
@@ -175,13 +175,13 @@
 
 .footer-logo-txt{
     font: 1.5rem "ProximaNova Regular", sans-serif;
-    color: rgb(220, 220, 220);
+    color: #0693e3;
     text-align: center;
     margin-bottom: 20px;
 }
 
 .ribbon {
-    background: #559bd6;
+    background: #0693e3;
     height: 40px;
     width: 230px;
     display: inline-block;
@@ -206,7 +206,7 @@
 /*}*/
 .ribbon:after {
     content: '';
-    border: 20px solid #559bd6;
+    border: 20px solid #0693e3;
     border-right-color: white;
     border-right-width: 12px;
     position: absolute;
