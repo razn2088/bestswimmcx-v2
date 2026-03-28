@@ -1,0 +1,282 @@
+/* Header */
+.headbox .logo-title {
+    font: 1.5rem "ProximaNova Regular", sans-serif;
+    color: rgb(93, 93, 93);
+}
+/*.headbox .logo-title .logo-title__color{ color: #90387a; }*/
+
+/* Banner Section */
+.section1 .s1hding{
+    font-size: 37px;
+    font-family: "ProximaNova Light";
+    color: rgb(255, 255, 255);
+    line-height: 1.564;
+}
+.ourTeam {
+    font-size: 23px;
+    font-family: 'ProximaNova Regular', sans-serif;
+    color: rgb(255, 255, 255);
+    line-height: 1.333;
+}
+.section1 ul.s1list li{
+    font-weight: initial;
+    color: #ffffff;
+}
+.s1txt2 .s1txt2__right{ font-weight: initial; }
+.s1txt2 span.span1{ font-weight: initial; }
+
+/* list of products */
+.inbx-midhding{ font-family: "ProximaNova SemiBold"; }
+.indx-midsbhding p{
+    font: 1rem "ProximaNova Regular", sans-serif;
+    color: #02172c;
+    padding: 0 0 0 15px;
+}
+
+/*  */
+.s-productsUp .ourTop h2{
+    margin: 0 0 22px;
+    font: normal 30px 'ProximaNova Regular', sans-serif; }
+.s-productsUp .ourTop .ourTop__desc img{
+    border-radius: 50%;
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+}
+.s-productsUp .ourTop p {
+    font-size: 19px;
+    line-height: 1.4;
+}
+.s-productsUp .product-1 h2{
+    margin: 22px 0;
+    font: 23px "ProximaNova SemiBold", sans-serif;
+    letter-spacing: 1px;
+    color: #fff;
+    background-color: #5d5d5d;
+}
+.s-productsUp .product-1 .left-col{
+    width: 35%;
+    max-height: 450px;
+    text-align: center;
+}
+.s-productsUp .product-1 .left-col img{ height: 100%; }
+.s-productsUp .product-1 .right-col{ width: 65%; }
+
+.s-productsUp .btn1 img{
+    width: 8px;
+    height: 15px;
+    vertical-align: middle;
+    margin-left: 5px;
+}
+
+/* Picks */
+.inbx-logo1 {
+    margin: 30px auto 0 auto;
+    max-height: 200px;
+}
+/*:root {*/
+/*    --star-size: 26px;*/
+/*    --star-color: #fbea9e;*/
+/*    --star-background: #ffd205;*/
+/*}*/
+.stars {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: 26px;
+    font-family: Times; // make sure ★ appears correctly
+    line-height: 1;
+}
+.stars::before {
+    content: '★★★★★';
+    background: linear-gradient(90deg, #ffd205 var(--percent), #fbea9e var(--percent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.rating > span{ color: #ffd203; }
+.rating > span.rated:before,
+.rating > span.no-rate:before{
+    font-size: 26px;
+    margin-left: 1px;
+}
+.rating > span.no-rate { color: #fbea9e; }
+.box-nr-1{
+    top: 23px;
+    left: -23px;
+    background-size: contain;
+    background-position: unset;
+    line-height: 28px;
+}
+.box-nr-1 a{ font-weight: initial; }
+.inbx-mid{ width: 53%; }
+.inbx-midhding{ margin-bottom: 20px; }
+.inbx-ratshop{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 100px;
+}
+.inbx-midRight{
+    margin: 0 0 40px 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+.box-1 .inbx-rgt,
+.box-2 .inbx-rgt,
+.box-3 .inbx-rgt,
+.box-4 .inbx-rgt,
+.box-5 .inbx-rgt{
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    width: auto;
+}
+.intRate{
+    color: #559bd6;
+    right: 0;
+    margin-bottom: 10px;
+}
+.inbx-midRight-mb{ display: none; }
+.box-2 .inbx-midRight,
+.box-3 .inbx-midRight,
+.box-4 .inbx-midRight,
+.box-5 .inbx-midRight{ right: 0; }
+
+.textRate { color: #559bd6; }
+.s2bx1-inbx1 .btn1{
+    top: 0;
+    right: 0;
+    padding: 15px 0;
+    text-align: center;
+    transition: all .2s linear;
+    margin: 0;
+    line-height: initial;
+}
+.s2bx1-inbx1 .btn1 img[alt="chevron icon"] {
+    width: 10px;
+    height: 16px;
+    vertical-align: middle;
+}
+.s2bx1-inbx1.box-5 { margin-bottom: 35px; }
+.s-productsUp{ right: 0; }
+.inbx-proscons{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 55px;
+}
+.inbx-proscons .inbx-midlist p{ color: #4b4b4b; }
+
+.footer-logo-txt{
+    font: 1.5rem "ProximaNova Regular", sans-serif;
+    color: rgb(220, 220, 220);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.ribbon {
+    background: #559bd6;
+    height: 40px;
+    width: 230px;
+    display: inline-block;
+    position: relative;
+    color: #fff;
+    line-height: 2.3;
+    font-size: 16px;
+    text-align: center;
+    margin-left: 21px;
+    z-index: 9;
+}
+/*.ribbon:before{*/
+/*    position: absolute;*/
+/*    top:30px;*/
+/*    left:3px;*/
+/*    content: '';*/
+/*    background: #3c485f;*/
+/*    height: 18px;*/
+/*    width: 18px;*/
+/*    transform : rotate(45deg);*/
+/*    z-index:0;*/
+/*}*/
+.ribbon:after {
+    content: '';
+    border: 20px solid #559bd6;
+    border-right-color: white;
+    border-right-width: 12px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.popup-content ul{ margin: 10px 0; }
+.popup-content ul.s2list li,
+.popup-content ul li{
+    font-size: 13px;
+    line-height: 15px;
+    margin: 5px 0 0 35px;
+    list-style: circle;
+    padding: 0;
+}
+
+@media only screen and (min-width: 767px) {
+    .headwrapper > .headbox:nth-child(1) { padding-top: 21px; }
+}
+@media only screen and (max-width: 767px) {
+    .headbox .logo-title{ font-size: 1rem; }
+    .headwrapper > div:last-of-type {
+        text-align: center;
+        padding: 0;
+    }
+    .sec2-box1{ padding: 0; }
+    .s2bx1-inbx1 { padding-bottom: 45px; }
+    .inbx-midhding {
+        padding: 0 15px 0 15px;
+        text-align: center;
+    }
+    .indx-midsbhding p {
+        padding: 0 15px 0 15px;
+        text-align: center;
+    }
+    .inbx-proscons {
+        margin-top: 25px;
+        flex-direction: column;
+    }
+    .inbx-ratshop { top: 0; }
+    .inbx-midRight{ display: none; }
+    .inbx-midRight-mb{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 25px;
+    }
+    .s2bx1-inbx1 { padding-bottom: 45px; }
+    .s2bx1-inbx1 .btn1,
+    .s2bx1-inbx1.box-2 .btn1,
+    .s2bx1-inbx1.box-3 .btn1,
+    .s2bx1-inbx1.box-4 .btn1,
+    .s2bx1-inbx1.box-5 .btn1{
+        width: 150px;
+        margin-top: 40px !important;
+    }
+    .s-productsUp .ourTop h2 {
+        margin: 0 0 22px 0;
+        text-align: center;
+    }
+    .s-productsUp .ourTop p{ text-align: center; }
+    .s-productsUp .product-1 .left-col {
+        width: 100%;
+        max-height: 200px;
+        text-align: center;
+    }
+    .s-productsUp .product-1 .left-col img{ max-height: 200px; }
+    .s-productsUp .product-1 .right-col {
+        width: 100%;
+        text-align: justify;
+    }
+    .ftrlogo { max-width: 290px; }
+}
